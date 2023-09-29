@@ -26,7 +26,7 @@ const useGames = () => {
   
     const [games, setGames] = useState<Game[]>([]);
     const [error, setError] = useState("");
-   const [isLoading, setLoading ] =  useState(false);
+    const [isLoading, setLoading ] =  useState(false);
   
     useEffect(() => {
       const controller = new AbortController();
